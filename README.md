@@ -1,6 +1,20 @@
-# 🚀 Getting started with Strapi
+# 🚀 Getting started with CMS admin panel
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+### `Setup`
+```
+git clone https://github.com/rkgitvinay/strapi-website-base.git <folder-name>
+cd <folder-name>
+
+# Install dependencies
+npm install
+
+cp .env.example .env
+# Update values in .env file
+```
+### `Database`
+```
+Create a new database and import base.sql file
+```
 
 ### `develop`
 ```
