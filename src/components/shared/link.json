@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "fullSlug": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "style": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_navigations",
+  "info": {
+    "displayName": "Navigation"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "fullSlug": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "style": {
+      "type": "richtext"
+    },
+    "child": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
